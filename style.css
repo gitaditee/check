@@ -306,7 +306,7 @@ main{
        
         position: fixed;
         top: 1px;
-        width: 380px;
+        width:380px;
         box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
     } 
     main{
@@ -315,10 +315,10 @@ main{
     }
     .photo{
         display: block;
-        width: 200px;
+        width: 300px;
         float: right;
         margin-top: 100px;
-        margin-right: 80px;
+        margin-right: 50px;
         border-radius: 50%;
     }
     #intro{

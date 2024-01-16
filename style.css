@@ -11,7 +11,7 @@ nav{
     background-color: black;
     position: fixed;
     top: 1px;
-    width: 1500px;
+    width: 1520px;
     box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
 } 
 nav ul{
@@ -29,7 +29,7 @@ nav li{
 }
 nav a{
     height: 100%;
-    padding: 0 30px;
+    padding: 0 20px;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -114,6 +114,7 @@ main{
 
 #link{
     margin-left: 20px;
+    
 }
  #logo{
     width: 160px;
@@ -327,12 +328,15 @@ main{
         transition-property: all;
         transition-duration: 2s;
     }
+    #intro h3{
+        margin-top: 30px;
+    }
     #techid{
         display: flex;
         align-items: center;
         justify-content:space-evenly;
         flex-direction: row;
-        margin-top: 108px;
+        margin-top: 140px;
     }
     #gfg{
         position: absolute;
@@ -382,6 +386,7 @@ main{
     }
     #link{
         margin-left: 10px;
+        
     }
     #about{
          

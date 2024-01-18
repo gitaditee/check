@@ -14,20 +14,20 @@
             <ul class="sidebar">
                 <li onclick="sideclose()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" style="fill: rgb(10, 166, 251);"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
                 <li><a  href="index.html"  onclick="ToggleMenu()">Home</a></li>
-                <li><a  href="#techid" onclick="ToggleMenu()" >About Me</a></li>
-                <li><a  href="#Education" onclick="ToggleMenu()">Experinece</a></li>
-                 <li><a  href="#project" onclick="ToggleMenu()">Projects</a></li>
-                <li><a  href="#services" onclick="ToggleMenu()">Services </a></li>
-            </ul>
+                <li><a  id="touch"href="#techid" onclick="ToggleMenu()" >About Me</a></li>
+                <li id="touch"><a href="#Education" onclick="ToggleMenu()"onclick="remove()">Experinece</a></li>
+                 <li><a   href="#project" onclick="ToggleMenu()"onclick="remove()">Projects</a></li>
+                <li><a   href="#services" onclick="ToggleMenu()"onclick="remove()">Services </a></li>
+            </ul> 
                 <ul>
                     <li><a href="#">ADITEE</a></li>
                     <li class="hideOnMobile"><a  href="index.html"  onclick="ToggleMenu()">Home</a></li>
                     <li class="hideOnMobile"><a  href="#techid" onclick="ToggleMenu()" >About Me</a></li>
-                    <li class="hideOnMobile"><a  href="#Education" onclick="ToggleMenu()">Experinece</a></li>
+                    <li class="hideOnMobile"><a  href="#Education" onclick="ToggleMenu()" >Experinece</a></li>
                      <li class="hideOnMobile"><a  href="#project" onclick="ToggleMenu()">Projects</a></li>
                     <li class="hideOnMobile"><a  href="#services" onclick="ToggleMenu()">Services </a></li>
-                    <li class="menu-button" onclick="showsidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" style="fill:rgb(10, 166, 251) ;"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
-                </ul>
+                     <li class="menu-button" onclick="showsidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" style="fill:rgb(10, 166, 251) ;"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li> 
+                </ul>       
             </nav> 
             <main>
                
@@ -45,37 +45,37 @@
            <br >
           <br >
           <br >
-            <a id="link" href="https://github.com/gitaditee" width="10px"><i class="fa-brands fa-github fa-2xl" style="color:rgb(10, 166, 251);"></i></a>
-            <a id="logo" href="https://www.linkedin.com/in/aditee-7a380923a/" width="10px"><i class="fa-brands fa-linkedin fa-2xl" style="color: rgb(10, 166, 251);"></i></a>
-            <a id="link"href="https://www.instagram.com/abditory_03/?next=%2F" width="10px"><i class="fa-brands fa-instagram fa-2xl" style="color:rgb(10, 166, 251); "></i></a>
-           <a id="link"href="https://www.google.com/" width="10px"><i class="fa-brands fa-x-twitter fa-2xl" style="color: rgb(10, 166, 251);"></i></a>
+            <a id="link" href="https://github.com/gitaditee" width="10px"><i class="fa-brands fa-github fa-2xl" style="color:rgb(10, 166, 251); "></i></a>
+            <a id="link" href="https://www.linkedin.com/in/aditee-7a380923a/" width="10px"><i class="fa-brands fa-linkedin fa-2xl" style="color: rgb(10, 166, 251); "></i></a>
+            <a id="link"href="https://www.instagram.com/abditory_03/?next=%2F" width="10px"><i class="fa-brands fa-instagram fa-2xl" style="color:rgb(10, 166, 251);"></i></a>
+           <a id="link"href="https://www.google.com/" width="10px"><i class="fa-brands fa-x-twitter fa-2xl" style="color: rgb(10, 166, 251); "></i></a>
            
                
            
                 <section id="techid">
                 <div class="gfg">
-                    <a id="logo" href="https://auth.geeksforgeeks.org/user/21itgjti" ><img id="gfg"src="GeeksForGeeks.jpg" ></a>
+                   <img id="gfg"src="GeeksForGeeks.jpg" >
                    
-                    <div class="g">
+                   <a id="logo" href="https://auth.geeksforgeeks.org/user/21itgjti" ><div class="g">
                     <p>GeeksFor</p>
                     <p>Geeks</p>
                 </div>
                 </div>
                 <div class="gfg">
-                <a id="logo" href="https://leetcode.com/21it01/" ><img id="gfg" src="leetcode.jpeg"></a>
-                <div class="g">
+               <img id="gfg" src="leetcode.jpeg">
+               <a id="logo" href="https://leetcode.com/21it01/" ><div class="g">
                     <p>Leetcode</p>
                 </div>
                 </div>
              <div class="gfg"> 
-                <a id="logo" href="https://www.hackerrank.com/profile/21it0110" ><img id="gfg" src="hackerank.jpeg" ></a>
-                <div class="g">
+                <img id="gfg" src="hackerank.jpeg" >
+                <a id="logo" href="https://www.hackerrank.com/profile/21it0110" ><div class="g">
                     <p>Hackerank</p>
                 </div>
              </div>
              <div class="gfg">
-             <a id="logo" href="https://github.com/gitaditee" ><img id="gfg" src="git.jpeg" ></a> 
-             <div class="g">
+             <img id="gfg" src="git.jpeg" > 
+             <a id="logo" href="https://github.com/gitaditee" ><div class="g">
                 <p>GitHub</p>
             </div>
             </div>
@@ -85,7 +85,6 @@
         <br>
        <img  id="aboutme"src="working.png"><a id="atext">About Me</a> 
                 <section id="about" style="background-color: rgba(0, 0, 0, 0.427); ">
-                    
                     <br>
                     <img id="secimg" src="image - Copy.jpg" >
                    <div id="para">
@@ -133,22 +132,74 @@
                         </div>
                         <img id="eye"src="eye.png"><a id="view"href="http://gweca.ac.in/">View</a>
                     </div> 
-                    <div class="card" id="clg">
+                    <div class="card" id="schl">
                         <img id="gweca" src="school.jpg">
-                        <div id="clgpara">
+                        <div id="schlpara">
                         <h3>Intermediate (12th): (2020-21) 83.8%</h3>
-                        <br>
+                        
                         <h3>Matriculation (10th) :(2018-19) 76%</h3>
                         <br>
                         <h2>St. Francis Sr. Sec. School , Ajmer Rajasthan</h2>
                         <br>
                         <p>Ajmer | India</p>
-                        <br>                        
+                                            
                     </div>
-                    <img id="eye"src="eye.png"><a id="view"href="https://sfsajmer.com/">View</a>
+                    <img id="eyeschl"src="eye.png"><a id="viewschl"href="https://sfsajmer.com/">View</a>
                     </div>
                 </section>
-
+                <section id="experience">
+                    <img id="exp" src="experience.png"><a id="exptext">Experinece</a>
+                    
+                   <div id="timeline">
+                    <div class="container left-container">
+                <div class="text-box">
+                    <img src="Goldman-Sachs-Logo-1869-2020.png">
+                    <h3>Goldman Sachs </h3>
+                    <br>
+                    <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Remote</p>
+                    <br>
+                    <p>iWE Tech Mentoring Program</p>
+                    <br>
+                    <p>Role : Mentee</p>
+                    <br>
+                    <p>Learnings: Working On Data Structure and Algorithms and Soft Skills.</p>   
+                    <br>
+                    <p> Industrial Exposure : Interacting and learning from people working in Goldman Sachs</p>
+                    <span class="left-container-arrow"></span>
+                </div>
+                    </div>
+               <div class="container right-container">            
+                <div class="text-box">
+                    <img src="idex.jpeg">
+                    <h3>iDEX-DIO (innovate4Defence)</h3>
+                    <br>
+                    <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Remote| India</p>
+                    <br>
+                    <p>Role : Intern</p>
+                    <br>
+                    <p>Department- with Startup Company Sagar Defence Engineering Pvt. Ltd. in Software Department of Computer Vision and Python Programming </p>
+                    <br>
+                    <p>Project and Report- Worked on Extended Kalman Filter using python</p>
+                    <span class="right-container-arrow"></span>
+                </div>
+               </div>
+               <div class="container left-container">            
+                <div class="text-box">
+                    <img src="linkdln.jpeg">
+                    <h3>Ananya LinkedIn Deep Volunteering program </h3>
+                    <br>
+                    <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Remote</p>
+                    <br>
+                    <p>Role : Mentee</p>
+                    <br>
+                    <p>Learnings -DSA Concepts, Worked on Coding Platforms</p>
+                    <br>
+                    <p>Industrial Exposure- Interacting and learning from people working in LinkedIn</p>
+                    <span class="left-container-arrow"></span>
+                </div>
+            </div> 
+             </div>
+            </section>
             </main>
     <script src="portfolio.js"></script>
 </body>

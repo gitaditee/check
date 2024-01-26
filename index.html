@@ -13,20 +13,20 @@
          <nav>
             <ul class="sidebar">
                 <li onclick="sideclose()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" style="fill: rgb(10, 166, 251);"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-                <li><a  href="index.html"  onclick="ToggleMenu()">Home</a></li>
-                <li><a  id="touch"href="#techid" onclick="ToggleMenu()" >About Me</a></li>
-                <li id="touch"><a href="#Education" onclick="ToggleMenu()"onclick="remove()">Experinece</a></li>
-                 <li><a   href="#project" onclick="ToggleMenu()"onclick="remove()">Projects</a></li>
-                <li><a   href="#services" onclick="ToggleMenu()"onclick="remove()">Services </a></li>
+                <li><a  href="index.html"  onclick="sideclose()">Home</a></li>
+                <li><a href="#techid" onclick="sideclose()" >About Me</a></li>
+                <li ><a href="#experience" onclick="sideclose()">Experience</a></li>
+                 <li><a   href="#project" onclick="sideclose()">Projects</a></li>
+                <li><a   href="#contact" onclick="sidecloses()">Contact Me </a></li>
             </ul> 
                 <ul>
                     <li><a href="#">ADITEE</a></li>
-                    <li class="hideOnMobile"><a  href="index.html"  onclick="ToggleMenu()">Home</a></li>
-                    <li class="hideOnMobile"><a  href="#techid" onclick="ToggleMenu()" >About Me</a></li>
-                    <li class="hideOnMobile"><a  href="#Education" onclick="ToggleMenu()" >Experinece</a></li>
-                     <li class="hideOnMobile"><a  href="#project" onclick="ToggleMenu()">Projects</a></li>
-                    <li class="hideOnMobile"><a  href="#services" onclick="ToggleMenu()">Services </a></li>
-                     <li class="menu-button" onclick="showsidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" style="fill:rgb(10, 166, 251) ;"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li> 
+                    <li class="hideOnMobile"><a  href="index.html"  onclick="toggleMenu()">Home</a></li>
+                    <li class="hideOnMobile"><a  href="#techid" onclick="toggleMenu()" >About Me</a></li>
+                    <li class="hideOnMobile"><a  href="#experience" onclick="toggleMenu()" >Experience</a></li>
+                     <li class="hideOnMobile"><a  href="#project" onclick="toggleMenu()">Projects</a></li>
+                    <li class="hideOnMobile"><a  href="#contact" onclick="toggleMenu()">Contact Me </a></li>
+                     <li class="menu-button" onclick="showsidebar(event)"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" style="fill:rgb(10, 166, 251) ;"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li> 
                 </ul>       
             </nav> 
             <main>
@@ -152,8 +152,23 @@
                     
                    <div id="timeline">
                     <div class="container left-container">
+                        <div class="text-box">
+                            <img src="hackt.jpg" style="width: 10%;">
+                            <h3>Hacktoberfest 2023 </h3>
+                            <br>
+                            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Remote</p>
+                            <br>
+                            <p>Open Source contribution</p>
+                            <br>
+                            <p>Learnings: Contributed On Data Structure and Algorithms.</p>   
+                            <br>
+                            <p> Hacktoberfest is an annual event that takes place every October,encouraging people to contribute to open-source projects on platforms like GitHub.</p>
+                            <span class="left-container-arrow"></span>
+                        </div>
+                            </div>
+                    <div class="container right-container">
                 <div class="text-box">
-                    <img src="Goldman-Sachs-Logo-1869-2020.png">
+                    <img src="Goldman-Sachs-Logo-1869-2020.png" style="width: 10%;">
                     <h3>Goldman Sachs </h3>
                     <br>
                     <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Remote</p>
@@ -165,10 +180,10 @@
                     <p>Learnings: Working On Data Structure and Algorithms and Soft Skills.</p>   
                     <br>
                     <p> Industrial Exposure : Interacting and learning from people working in Goldman Sachs</p>
-                    <span class="left-container-arrow"></span>
+                    <span class="right-container-arrow"></span>
                 </div>
                     </div>
-               <div class="container right-container">            
+               <div class="container left-container">            
                 <div class="text-box">
                     <img src="idex.jpeg">
                     <h3>iDEX-DIO (innovate4Defence)</h3>
@@ -180,10 +195,10 @@
                     <p>Department- with Startup Company Sagar Defence Engineering Pvt. Ltd. in Software Department of Computer Vision and Python Programming </p>
                     <br>
                     <p>Project and Report- Worked on Extended Kalman Filter using python</p>
-                    <span class="right-container-arrow"></span>
+                    <span class="left-container-arrow"></span>
                 </div>
                </div>
-               <div class="container left-container">            
+               <div class="container right-container">            
                 <div class="text-box">
                     <img src="linkdln.jpeg">
                     <h3>Ananya LinkedIn Deep Volunteering program </h3>
@@ -195,7 +210,7 @@
                     <p>Learnings -DSA Concepts, Worked on Coding Platforms</p>
                     <br>
                     <p>Industrial Exposure- Interacting and learning from people working in LinkedIn</p>
-                    <span class="left-container-arrow"></span>
+                    <span class="right-container-arrow"></span>
                 </div>
             </div> 
              </div>
@@ -243,49 +258,49 @@
                                     <p>By using Figma</p>
                                     <br>
                                     <a href="https://github.com/gitaditee/portfolio" class="card_button">Read More</a>
-                                
-                            </div>
-                        
+                            </div> 
                         </article>
                     </div>
                 </div>
                 </div>
-                <!-- <div id="projects">
-                  <h1 id="project">Projects</h1>
-        <div class="card" id="todolist">
-            <i class="fa-solid fa-list fa-2xl" style="color: #fbff00; margin-left:10px; margin-top: 50px;" ></i>
-            <br>
-            <h3 style="color: yellow; margin-top: 50px;">To Do List App</h3>
-            <br>
-            <br>
-            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white;">As a student specializing in Java development, A complete to do list app made by 
-            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> using Kotlin programming with well optimized code. 
-            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> It gives user rights to write their daily task.</p>
-         </div>
-         <div class="card" id="todolist">
-            <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #ffea00; margin-left:10px; margin-top: 50px;"></i>
-            <br>
-            <h3 style="color: yellow;margin-top: 50px;">Online Shopping Management </h3>
-            <br>
-            <br>
-            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> As a student specializing in Java Development, A applet-based complete shopping management made by    </p>
-            <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">using concepts of Java applet Programming with well optimized code.  </p>
-            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> It give the user rights to see different departments of product and add products, delete ,total amount.</p>
-        </div>
-        
-        <div  class="card" id="todolist">
-          
-            <i class="fa-solid fa-person-booth fa-2xl" style="color: #fbff00;  margin-left:10px; margin-top: 50px;"></i>
-            <br>
-            <h3 style="color: yellow; margin-top: 50px;">Online Voting System</h3>
-            <br>
-            <br>
-            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">"As a student in software engineering, A console-based voting management made by using  </p>
-            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> concepts of object oriented concepts with well optimized code. </p> 
-            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Project was also selected in National Top 50 at GTT foundation (NESIA-TOP-50)"</p>
-        </div>
-                </div> -->
             </section>
+            <img id="edph" src="contact-us (1).png"><a id="atext">Contact Me</a>
+            <section id="contact">
+                <div class="contacts">
+                <div class="container-form">
+                    <div class="row">
+                        <div class="contact-left">
+                            
+                            <p><i class="fa-solid fa-paper-plane"style="color:rgb(10, 166, 251);margin-right:15px; "></i>aditeesingh03@gmail.com</p>
+                            <p><i class="fa-solid fa-phone"  style="color:rgb(10, 166, 251); margin-right:15px;"></i>8769756859</p>
+                            <br>
+                            <div class="social-icons">
+                                <a id="link" href="https://github.com/gitaditee" width="10px"><i class="fa-brands fa-github fa-2xl" style="color:rgb(10, 166, 251); "></i></a>
+                                <a id="link" href="https://www.linkedin.com/in/aditee-7a380923a/" width="10px"><i class="fa-brands fa-linkedin fa-2xl" style="color: rgb(10, 166, 251); "></i></a>
+                                <a id="link"href="https://www.instagram.com/abditory_03/?next=%2F" width="10px"><i class="fa-brands fa-instagram fa-2xl" style="color:rgb(10, 166, 251);"></i></a>
+                               <a id="link"href="https://www.google.com/" width="10px"><i class="fa-brands fa-x-twitter fa-2xl" style="color: rgb(10, 166, 251); "></i></a>
+                            </div>
+                        </div>
+                        <div class="contact-right">
+                            <form>
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                 <input type="email" name="Email Id" placeholder="Your Email Id" required>
+                                 <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                 <button type="button" id="cv">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+            <footer>
+       
+                Made with &hearts; by Aditee
+                <br>
+                &#169; portflio
+                
+            </footer> 
             </main>
+            
     <script src="portfolio.js"></script>
 </body>

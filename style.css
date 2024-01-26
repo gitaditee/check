@@ -92,6 +92,14 @@ main{
     width: 100%;
     margin-top: 100px;
 }
+ footer{
+  background-color:black;
+  width: 100%;
+  color: white;
+  text-align: center;
+ left: 0;
+ bottom: 0;
+ } 
 .menu-button{
     display: none;
 }
@@ -510,7 +518,7 @@ main{
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
     border-right: 15px  solid white;
-    left: -15px;
+    left: -14px;
   }
   .project_container{
   display: grid;
@@ -578,7 +586,7 @@ main{
    }
    @keyframes show-data {
     50%{
-      transform: translateY(-7rem);
+      transform: translateY(-8rem);
     }
     100%{
       transform: translateY(-5rem);
@@ -623,7 +631,7 @@ main{
   
     display: inline-block;
     
-    margin-left: 150px;
+    margin-left: 100px;
     margin-top: 40px;
    
     display: flex;
@@ -638,6 +646,32 @@ main{
   #todolist:hover {
     
     box-shadow: 0 8px 16px 0 rgb(168, 165, 165) ;
+  }
+   .row{
+    display: grid;
+    flex-direction: row;
+    row-gap: 3.5rem;
+    grid-template-columns: repeat(1,1fr);
+  } 
+  .contact-left{
+    flex-basis: 35%;
+  }
+  .contact-right{
+    flex-basis: 60%;
+    
+  }
+  .contact-left p{
+    margin-top: 30px;
+  }
+  form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: black;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    border-radius: 6px;
   }
 @media only screen and (max-width: 600px){
     .hideOnMobile{
@@ -944,7 +978,7 @@ main{
         left: 0;
      }
     .container img{
-        left: 10px;
+        left: 0;
     }
      .left-container-arrow,.right-container-arrow{
         border-right: 15px solid white;

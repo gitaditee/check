@@ -301,6 +301,9 @@
      .text-box{
         font-size: 13px;
      }
+    .text-box img{
+        top: 0;
+     }
      .right-container{
         left: 0;
      }

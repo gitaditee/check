@@ -39,14 +39,14 @@ nav a{
     display: flex;
     align-items: center;
     transition-property: all;
-    color: rgb(229, 255, 0);
+    color: yellow;;
     font-size: large;
     
 }
  a:hover{
     color:white;
     
-    text-shadow:2px 2px 5px rgb(229, 255, 0);
+    text-shadow:2px 2px 5px yellow;;
 }
  a::after{
     content: '';
@@ -55,7 +55,7 @@ nav a{
     text-decoration: underline;
     position: absolute;
     left: 10;
-    background:rgb(229, 255, 0);
+    background:yellow;;
     bottom: -6px;
     transition: 0.5s;
 }
@@ -142,11 +142,11 @@ transform: scale(1.1);
   margin: 5px 0;
  }
   #intro .text-3 span{
-    color: rgb(229, 255, 0);
+    color: yellow;
     font-weight: 500;
   }
   #aditee{
-    color: rgb(229, 255, 0);
+    color: yellow;
   }
 #link{
     margin-left: 20px;
@@ -166,7 +166,7 @@ transform: scale(1.1);
     object-fit: cover;
     background-color: white;
     border-radius: 100%;
-    border:rgb(229, 255, 0) solid 5px;
+    border:yellow solid 5px;
     object-position: center;
     top:0;
     left: 0;
@@ -222,7 +222,7 @@ transform: scale(1.1);
     font-size: 50px;
     margin-bottom: 10px;
     transition-property: all;
-    color: rgb(229, 255, 0);
+    color: yellow;
 }
 #atext:hover{
     text-decoration: underline;
@@ -270,7 +270,7 @@ transform: scale(1.1);
     text-decoration: underline;
 }
 #cv:hover{
-    background-color:rgb(229, 255, 0) ;
+    background-color:yellow ;
     box-shadow:blueviolet;
 }
 #edph{
@@ -392,7 +392,7 @@ transform: scale(1.1);
   #gs:hover {
     /* background-color: yellow;
     color: black; */
-    box-shadow: 0 8px 16px 0 rgb(229, 255, 0);
+    box-shadow: 0 8px 16px 0 yellow;
   }
   #experience h1{
     color: white;
@@ -417,7 +417,7 @@ transform: scale(1.1);
     color: white;
   }
   .vl2{
-    border-left: 6px solid rgb(229, 255, 0);
+    border-left: 6px solid yellow;
     height: 1500px;
      /* margin-right: 300px; */
     margin-left: 600px;  
@@ -458,7 +458,7 @@ transform: scale(1.1);
     font-size: 50px;
     margin-bottom: 10px;
     transition-property: all;
-    color: rgb(229, 255, 0);
+    color: yellow;
 }
 #exptext:hover{
     text-decoration: underline;
@@ -629,7 +629,7 @@ transform: scale(1.1);
  .card_data{
   width: 100%;
   height: 0;
-  background: linear-gradient(rgba(0,0,0,0.6),rgb(229, 255, 0));
+  background: linear-gradient(rgba(0,0,0,0.6),yellow);
   border-radius: 10px;
   color: white;
   position: absolute;
@@ -687,7 +687,7 @@ transform: scale(1.1);
     text-decoration: underline;
 }
 #submit:hover{
-    background-color:rgb(229, 255, 0) ;
+    background-color:yellow ;
     box-shadow:blueviolet;
 }
 

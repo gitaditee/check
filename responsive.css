@@ -51,7 +51,7 @@
     #techid{
         display: flex;
         align-items: center;
-        justify-content:space-evenly;
+        justify-content:center;
         flex-direction: row;
         margin-top: 70px;
     }

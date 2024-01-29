@@ -67,7 +67,7 @@
         object-position: center;
         top:0;
         left: 0;
-        perspective: 600px;
+        perspective: 200px;
         transform-origin: right center;
         transition: 0.5s all ease-in-out;
     }

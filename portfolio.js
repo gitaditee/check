@@ -21,3 +21,9 @@ function toggleMenu(){
       
   //   g.style.right="-300px";
   //    }
+  var type=new Typed(".typing",{
+    strings:["Software Developer","Android Developer","Java Developer","Web Developer"],
+    typeSpeed:100,
+    backSpeed:60,
+    loop:true
+  })

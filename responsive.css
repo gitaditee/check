@@ -40,11 +40,26 @@
         margin-left: 10px;
         font-size: small;
         transition-property: all;
+        font-family: 'Ubuntu','sans-serif';
         transition-duration: 2s;
     }
-    #intro h3{
+    #intro .text-1{
         margin-top: 30px;
-    }
+        font-size: 20px;
+       }
+       #intro .text-2{
+        font-size: 25px;
+        font-weight: 600;
+        margin-left: -3px;
+       }
+       #intro .text-3{
+        font-size: 30px;
+        margin: 5px 0;
+       }
+        #intro .text-3 span{
+          color: rgb(229, 255, 0);
+          font-weight: 500;
+        }
     .g p{
        font-size: 10px;
     }
@@ -57,13 +72,13 @@
     }
     #gfg{
         position: absolute;
-        width:70px;
-        height: 70px;
-         z-index: 5; 
+        width:60px;
+        height: 60px;
+        /* z-index: 5; */
         object-fit: fill;
         background-color: white;
         border-radius: 100%;
-        border:rgb(10, 166, 251) solid 2px;
+        border:rgb(229, 255, 0)solid 2px;
         object-position: center;
         top:0;
         left: 0;
@@ -75,8 +90,8 @@
         transform: rotateY(180deg);
     }
     .g{
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
         position: relative;
         top:0;
         left: 0;
@@ -99,7 +114,7 @@
     .gfg{
         width: 60px;
         height: 60px;
-      perspective: 500px; 
+        perspective: 500px;
     }
     #link{
         margin-left: 10px;
@@ -127,7 +142,7 @@
         margin-left: 20px;
         font-size: 20px;
         margin-bottom: 10px;
-        color: rgb(10, 166, 251);
+        color: rgb(229, 255, 0);
     }
     #atext:hover{
         color: white;
@@ -157,7 +172,7 @@
         flex-direction: row;
     }
     #about ul li:hover{
-        color:  rgb(10, 166, 251);
+        color:  rgb(229, 255, 0);
         text-decoration: underline;
     }
     #cv{
@@ -170,7 +185,7 @@
         text-decoration: underline;
     }
     #cv:hover{
-        background-color: rgb(10, 166, 251);
+        background-color: rgb(229, 255, 0);
         box-shadow:blueviolet;
     }
     #edph{
@@ -276,7 +291,7 @@
         font-size: 30px;
         margin-bottom: 10px;
         transition-property: all;
-        color: rgb(10, 166, 251);
+        color: rgb(229, 255, 0);
     }
     #exptext:hover{
         text-decoration: underline;
@@ -302,6 +317,7 @@
         font-size: 13px;
      }
     
+     
      .right-container{
         left: 0;
      }

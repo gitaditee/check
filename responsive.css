@@ -57,8 +57,8 @@
     }
     #gfg{
         position: absolute;
-        width:60px;
-        height: 60px;
+        width:70px;
+        height: 70px;
          z-index: 5; 
         object-fit: fill;
         background-color: white;

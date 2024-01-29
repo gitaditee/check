@@ -60,7 +60,7 @@
         width:100%;
         height: 100%;
         /* z-index: 5; */
-        object-fit: cover;
+        object-fit: fill;
         background-color: white;
         border-radius: 100%;
         border:rgb(10, 166, 251) solid 2px;

@@ -97,9 +97,9 @@
         color:white;
     }
     .gfg{
-        width: 80%;
+        width: 60%;
         height: 70%;
-/*         perspective: 500px; */
+      perspective: 500px; 
     }
     #link{
         margin-left: 10px;

@@ -84,7 +84,7 @@
         justify-content: center;
         background-color: black;
         border-radius: 100%;
-        perspective: 500px;
+        perspective: 200px;
         
         object-fit: cover;
         align-items: center;
@@ -97,9 +97,9 @@
         color:white;
     }
     .gfg{
-        width: 60px;
+        width: 100px;
         height: 60px;
-        perspective: 600px;
+        perspective: 500px;
     }
     #link{
         margin-left: 10px;

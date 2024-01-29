@@ -57,7 +57,7 @@
         margin: 5px 0;
        }
         #intro .text-3 span{
-          color: yellow;
+          color: rgb(173, 225, 246);
           font-weight: 500;
         }
     .g p{
@@ -78,7 +78,7 @@
         object-fit: fill;
         background-color: white;
         border-radius: 100%;
-        border:yellow 2px;
+        border:rgb(173, 225, 246) 2px;
         object-position: center;
         top:0;
         left: 0;
@@ -142,7 +142,7 @@
         margin-left: 20px;
         font-size: 20px;
         margin-bottom: 10px;
-        color: yellow;
+        color: rgb(173, 225, 246);
     }
     #atext:hover{
         color: white;
@@ -172,7 +172,7 @@
         flex-direction: row;
     }
     #about ul li:hover{
-        color:  yellow;
+        color:  rgb(173, 225, 246);
         text-decoration: underline;
     }
     #cv{
@@ -185,7 +185,7 @@
         text-decoration: underline;
     }
     #cv:hover{
-        background-color: yellow;
+        background-color: rgb(173, 225, 246);
         box-shadow:blueviolet;
     }
     #edph{
@@ -291,7 +291,7 @@
         font-size: 30px;
         margin-bottom: 10px;
         transition-property: all;
-        color: yellow;
+        color: rgb(173, 225, 246);
     }
     #exptext:hover{
         text-decoration: underline;
@@ -354,7 +354,7 @@
         border-radius: 6px;
       }
       #submit{
-        background-color:blueviolet ;
+        background-color:rgb(173, 225, 246);
         text-align: center;
         margin-left: 30px;
         font-size: medium;

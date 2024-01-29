@@ -39,14 +39,14 @@ nav a{
     display: flex;
     align-items: center;
     transition-property: all;
-    color: yellow;;
+    color: rgb(173, 225, 246);
     font-size: large;
     
 }
  a:hover{
     color:white;
     
-    text-shadow:2px 2px 5px yellow;;
+    text-shadow:2px 2px 5px rgb(246, 173, 225);
 }
  a::after{
     content: '';
@@ -55,7 +55,7 @@ nav a{
     text-decoration: underline;
     position: absolute;
     left: 10;
-    background:yellow;;
+    background:rgb(246, 173, 225);
     bottom: -6px;
     transition: 0.5s;
 }
@@ -65,6 +65,7 @@ nav a:hover::after{
 nav li:first-child{
     margin-right: auto;
     font-size: 250px;
+    color:rgb(246, 173, 225) ;
 }
 
  .sidebar{
@@ -142,11 +143,11 @@ transform: scale(1.1);
   margin: 5px 0;
  }
   #intro .text-3 span{
-    color: yellow;
+    color: rgb(246, 173, 225);
     font-weight: 500;
   }
   #aditee{
-    color: yellow;
+    color: rgb(173, 225, 246);
   }
 #link{
     margin-left: 20px;
@@ -166,7 +167,7 @@ transform: scale(1.1);
     object-fit: cover;
     background-color: white;
     border-radius: 100%;
-    border:yellow solid 5px;
+    border:rgb(173, 225, 246) solid 5px;
     object-position: center;
     top:0;
     left: 0;
@@ -221,8 +222,9 @@ transform: scale(1.1);
     margin-left: 80px;
     font-size: 50px;
     margin-bottom: 10px;
+    font-family: 'Ubuntu','sans-serif';
     transition-property: all;
-    color: yellow;
+    color: rgb(173, 225, 246);
 }
 #atext:hover{
     text-decoration: underline;
@@ -270,7 +272,7 @@ transform: scale(1.1);
     text-decoration: underline;
 }
 #cv:hover{
-    background-color:yellow ;
+    background-color:rgb(173, 225, 246) ;
     box-shadow:blueviolet;
 }
 #edph{
@@ -392,7 +394,7 @@ transform: scale(1.1);
   #gs:hover {
     /* background-color: yellow;
     color: black; */
-    box-shadow: 0 8px 16px 0 yellow;
+    box-shadow: 0 8px 16px 0 rgb(173, 225, 246);
   }
   #experience h1{
     color: white;
@@ -417,7 +419,7 @@ transform: scale(1.1);
     color: white;
   }
   .vl2{
-    border-left: 6px solid yellow;
+    border-left: 6px solid rgb(173, 225, 246);
     height: 1500px;
      /* margin-right: 300px; */
     margin-left: 600px;  
@@ -458,7 +460,7 @@ transform: scale(1.1);
     font-size: 50px;
     margin-bottom: 10px;
     transition-property: all;
-    color: yellow;
+    color: rgb(173, 225, 246);
 }
 #exptext:hover{
     text-decoration: underline;
@@ -629,7 +631,7 @@ transform: scale(1.1);
  .card_data{
   width: 100%;
   height: 0;
-  background: linear-gradient(rgba(0,0,0,0.6),yellow);
+  background: linear-gradient(rgba(0,0,0,0.6),rgb(246, 173, 225));
   border-radius: 10px;
   color: white;
   position: absolute;
@@ -678,7 +680,7 @@ transform: scale(1.1);
     border-radius: 6px;
   }
   #submit{
-    background-color:blueviolet ;
+    background-color:rgb(246, 173, 225) ;
     text-align: center;
     margin-left: 450px;
     font-size: medium;
@@ -687,7 +689,7 @@ transform: scale(1.1);
     text-decoration: underline;
 }
 #submit:hover{
-    background-color:yellow ;
+    background-color:rgb(173, 225, 246);
     box-shadow:blueviolet;
 }
 

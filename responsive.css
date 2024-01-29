@@ -59,7 +59,7 @@
         position: absolute;
         width:100px;
         height: 80px;
-        /* z-index: 5; */
+         z-index: 5; 
         object-fit: fill;
         background-color: white;
         border-radius: 100%;

@@ -294,12 +294,15 @@
                             </div>
                         </div> 
                         <div class="contact-right">
-                            <form name="submit-to-google-sheet">
+                              <form action="https://api.web3forms.com/submit" method="POST">
+                                <input type="hidden" name="access_key" value="1633e20d-f99e-41cf-9f20-b397ffc44500">
                                 <input type="text" name="Name" placeholder="Your Name" required>
                                  <input type="email" name="Email Id" placeholder="Your Email Id" required>
                                  <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                                  <button type="button" id="submit">Submit</button>
                             </form>
+                       
+                            
                        
                     </div>
                 
@@ -315,15 +318,5 @@
             </main>
             
     <script src="portfolio.js"></script>
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwFG99chW6jHRBz2fjdumqygBHOYyLIB4sYQ-gXYlAM11LcO-NTx0-2ZODcda2AHWnW/exec'
-        const form = document.forms['submit-to-google-sheet']
-      
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => console.log('Success!', response))
-            .catch(error => console.error('Error!', error.message))
-        })
-      </script>
+    
 </body>
